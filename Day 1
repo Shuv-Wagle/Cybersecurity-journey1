@@ -10,7 +10,7 @@ What is ping?
 What is traceroute?
 
 Practical commands:
-ip addr
+ip address
 ip route
 ping google.com
 traceroute google.com
