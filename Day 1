@@ -1,2 +1,27 @@
-# Cybersecurity-journey1
-My daily cybersecurity learning and practice
+Topics learned:
+
+What is an IP address?
+What is a MAC address?
+What is DNS?
+What is a port?
+What is TCP vs UDP?
+What is ICMP?
+What is ping?
+What is traceroute?
+
+Practical commands:
+ip addr
+ip route
+ping google.com
+traceroute google.com
+
+What I practiced:
+
+Checked my device's IP address.
+Checked my default gateway.
+Used ping to test connectivity.
+Used traceroute to see the path to a website.
+
+Key takeaway:
+
+Networking is the foundation of cybersecurity. Before learning how to attack or defend systems, I need to understand how devices communicate with each other.
