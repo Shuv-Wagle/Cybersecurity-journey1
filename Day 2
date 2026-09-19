@@ -1,1 +1,40 @@
+# 🛡️ Day 2 — DNS & Web Basics
+
+## 📚 Topics Learned
+
+* **DNS (Domain Name System):** Converts domain names like `google.com` into IP addresses.
+* **IP Address:** A network address used to identify a destination on a network.
+* **Web Server:** A computer/system that receives requests and sends website data back.
+* **HTTP:** A protocol used for communication between a browser and a web server.
+* **HTTPS:** The secure version of HTTP, using encryption.
+* **URL:** The address used to access a resource on the web.
+* **curl:** A command-line tool used to communicate with web servers and view their responses.
+
+## 🧪 Commands Practiced
+
+```bash
+nslookup google.com
+ping google.com
+curl https://google.com
+```
+
+## 🔍 What I Practiced
+
+* Used `nslookup` to find IP addresses associated with `google.com`.
+* Learned that one domain can have multiple IP addresses.
+* Used `ping` to see which IP address `google.com` resolved to.
+* Used `curl` to request a webpage directly from the terminal.
+* Learned that the response from a web server can contain HTML/webpage data.
+
+## 🧠 Key Takeaways
+
+> DNS helps translate domain names into IP addresses.
+
+> One domain can have multiple IP addresses because large services can use multiple servers and infrastructure.
+
+> A browser sends requests to web servers, and web servers send responses back.
+
+> `curl` lets me communicate with a web server from the terminal without using a graphical browser.
+
+
 
