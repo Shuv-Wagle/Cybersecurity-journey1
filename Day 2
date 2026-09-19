@@ -36,5 +36,113 @@ curl https://google.com
 
 > `curl` lets me communicate with a web server from the terminal without using a graphical browser.
 
+DHCP
+
+DHCP = Dynamic Host Configuration Protocol
+
+DHCP automatically provides devices with the network configuration they need.
+
+It can provide:
+
+IP address
+Subnet mask/network range
+Default gateway
+DNS server
+
+Instead of manually configuring these settings, the device can request them from a DHCP server.
+
+Laptop
+   ↓
+"I need network settings"
+   ↓
+DHCP Server
+   ↓
+IP + Subnet + Gateway + DNS
+
+A home router commonly acts as the DHCP server.
+
+Dynamic means the IP address can be assigned automatically and may change later.
+
+Default Gateway
+
+The default gateway is the device that acts as the normal exit from the local network to other networks/the Internet.
+
+Example:
+
+Your PC
+   ↓
+192.168.1.254 ← Default Gateway
+   ↓
+Internet
+🔐 VPN
+
+VPN = Virtual Private Network
+
+A VPN creates an encrypted connection between a device and a VPN server.
+
+Your PC
+   ↓
+🔐 Encrypted tunnel
+   ↓
+VPN Server
+   ↓
+Internet
+   ↓
+Website
+What a VPN can do
+Encrypt traffic between the device and VPN server.
+Route Internet traffic through the VPN server.
+Make websites generally see the VPN server's public IP instead of the user's normal public IP.
+Why companies use VPNs
+
+Companies can use VPNs to allow employees to securely access internal resources from outside the company network.
+
+Employee
+   ↓
+🔐 Company VPN
+   ↓
+Private Company Network
+   ↓
+Internal Resources
+⚠️ VPN Privacy
+
+A VPN does not automatically mean complete anonymity or safety.
+
+The VPN provider becomes an important party because traffic is routed through its servers. Some untrustworthy or malicious VPN services may collect or inspect user data.
+
+Therefore, a VPN provider should be chosen carefully.
+
+🧪 Commands Practiced
+nslookup.google.com
+dig -t SOA google.com
+ping google.com
+curl https://google.com
+ip address
+ip route
+What the commands showed
+nslookup google.com → found IP addresses associated with Google.
+dig -t SOA google.com → showed the SOA record and authoritative DNS information.
+ping google.com → resolved the domain to an IP and tested connectivity.
+curl https://google.com → requested a webpage from a web server.
+ip addr → displayed network interfaces and IP information.
+ip route → displayed routing information, including the default gateway.
+🧠 Key Takeaways
+
+DNS translates domain names into IP addresses.
+
+One domain can have multiple IP addresses.
+
+An authoritative name server provides official DNS information for a domain.
+
+A web server receives requests and sends website data back.
+
+DHCP automatically provides devices with network configuration.
+
+The default gateway is the normal exit from a local network to other networks.
+
+A VPN creates an encrypted connection to a VPN server and can make websites see the VPN server's public IP.
+
+A VPN provider should be trusted carefully because it sits between the user and the Internet.
+
 
 
